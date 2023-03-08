@@ -4,8 +4,27 @@ import './Projects.scss';
 const Projects = () => {
     return(
         <div className='Projects'>
-            <Card source={'https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg'} theme={'Card'}/>
-            <Card source={'https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80'} theme={'Card-flip'} />
+            <Card 
+                name = {'Four Card Feature Section'}
+                source={'./images/four-card-feature.png'} 
+                flip={'Card'}
+                project = {'https://alabador.github.io/frontend-ui/four-card-feature-section/'}
+                repo = {'https://github.com/alabador/frontend-ui/tree/main/four-card-feature-section'}
+            />
+            <Card 
+                name = {'Advice Generator App'}
+                source={'./images/advice-screenshot.png'} 
+                flip={'Card-flip'}
+                project = {'https://alabador.github.io/frontend-ui/advice-generator-app/'}
+                repo = {'https://github.com/alabador/frontend-ui/tree/main/advice-generator-app'} 
+            />
+            <Card 
+                name = {'Placeholder'}
+                source={'./images/four-card-feature.png'} 
+                flip={'Card'}
+                project = {'https://alabador.github.io/frontend-ui/four-card-feature-section/'}
+                repo = {'https://github.com/alabador/frontend-ui/tree/main/four-card-feature-section'}
+            />
         </div>
     )
 }

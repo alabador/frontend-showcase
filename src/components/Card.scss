@@ -1,21 +1,73 @@
+:root {
+    --dark-gray: rgb(30, 30, 30);
+    --near-white: rgb(248,248,248);
+    --accent: rgb(80, 154, 189);
+}
+
 .Card {
     width: 100%;
     background: rgb(80, 80, 80);
-    border: 5px solid white;
+    border: 5px solid var(--near-white);
 
     display: flex;
     flex-direction: column;
     
     @media screen and (min-width: 800px) {
         flex-direction: row;
-        height: 250px;
+        height: 50vh;
+    }
+
+    .Card-button {
+        padding: 1rem;
+        border: 2px solid var(--near-white);
+        text-decoration: none;
+        color: var(--near-white);
+    }
+
+    .Card-button:hover {
+        border: 2px solid var(--accent);
+        color: var(--accent)
     }
 }
 
+   
+.Card-image {
+    object-fit: cover;
+    width: 100%;
+    
+    @media screen and (min-width: 800px) {
+        width: 60%;
+    }
+}
+
+.Card-info {
+    padding: 1.5rem;
+    padding-bottom: 2.5rem;
+    color: var(--near-white);
+
+    font-size: 0.8rem;
+
+    @media screen and (min-width: 600px) {
+        font-size: 1rem;
+    }
+
+    @media screen and (min-width: 800px) {
+        width: 40%;
+        padding: 2rem;
+    }
+}
+
+.Card-links {
+    display: flex;
+    gap: 8px;
+}
+
+// Alt style of card
+
 .Card-flip {
     width: 100%;
-    background: rgb(117, 75, 75);
-    border: 5px solid black;
+    background: var(--near-white);
+    border: 5px solid var(--dark-gray);
 
 
     display: flex;
@@ -23,27 +75,23 @@
     
     @media screen and (min-width: 800px) {
         flex-direction: row-reverse;
-        height: 250px;
+        height: 50vh;
     }
-}
-   
-.Card-image {
-    object-fit: cover;
-    width: 100%;
-    
-    @media screen and (min-width: 800px) {
-        width: 50%;
-    }
-}
 
-.Card-info {
-    padding: 1.5rem;
-    color: rgb(248, 248, 248);
-    @media screen and (min-width: 800px) {
-        width: 50%;
-        padding: 2rem;
+    .Card-button {
+        padding: 1rem;
+        border: 2px solid var(--dark-gray);
+        text-decoration: none;
+        color: var(--dark-gray);
+    }
+
+    .Card-button:hover {
+        border: 2px solid var(--accent);
+        color: var(--accent)
+    }
+
+    .Card-info {
+        color: var(--dark-gray);
     }
 }
-   
-   
    
