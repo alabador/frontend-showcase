@@ -19,11 +19,11 @@ const Projects = () => {
                 repo = {'https://github.com/alabador/frontend-ui/tree/main/advice-generator-app'} 
             />
             <Card 
-                name = {'Placeholder'}
-                source={'./images/four-card-feature.png'} 
+                name = {'Altis Sign Up Form'}
+                source={'./images/signup-form.jpg'} 
                 flip={'Card'}
-                project = {'https://alabador.github.io/frontend-ui/four-card-feature-section/'}
-                repo = {'https://github.com/alabador/frontend-ui/tree/main/four-card-feature-section'}
+                project = {'https://alabador.github.io/sign-up-form/'}
+                repo = {'https://github.com/alabador/sign-up-form'}
             />
         </div>
     )
