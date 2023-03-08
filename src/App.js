@@ -1,15 +1,10 @@
-import React from 'react';
-import {
-  ChakraProvider,
-  theme,
-} from '@chakra-ui/react';
-import TopNav from './components/TopNav';
+import './App.css';
 
 function App() {
   return (
-    <ChakraProvider theme={theme}>
-      <TopNav />
-    </ChakraProvider>
+    <div className="App">
+      
+    </div>
   );
 }
 
