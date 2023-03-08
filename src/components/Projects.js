@@ -10,6 +10,7 @@ const Projects = () => {
                 flip={'Card'}
                 project = {'https://alabador.github.io/frontend-ui/four-card-feature-section/'}
                 repo = {'https://github.com/alabador/frontend-ui/tree/main/four-card-feature-section'}
+                stack = {['HTML', 'CSS']}
             />
             <Card 
                 name = {'Advice Generator App'}
@@ -17,6 +18,7 @@ const Projects = () => {
                 flip={'Card-flip'}
                 project = {'https://alabador.github.io/frontend-ui/advice-generator-app/'}
                 repo = {'https://github.com/alabador/frontend-ui/tree/main/advice-generator-app'} 
+                stack = {['HTML', 'SCSS', 'JavaScript']}
             />
             <Card 
                 name = {'Altis Sign Up Form'}
@@ -24,6 +26,7 @@ const Projects = () => {
                 flip={'Card'}
                 project = {'https://alabador.github.io/sign-up-form/'}
                 repo = {'https://github.com/alabador/sign-up-form'}
+                stack = {['HTML', 'SCSS', 'JavaScript']}
             />
         </div>
     )
