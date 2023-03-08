@@ -1,6 +1,7 @@
 :root {
     --dark-gray: rgb(30, 30, 30);
     --near-white: rgb(248,248,248);
+    --off-white: rgb(215, 221, 223);
     --accent: rgb(80, 154, 189);
 }
 
@@ -73,7 +74,7 @@
 
 .Card-flip {
     width: 100%;
-    background: var(--near-white);
+    background: var(--off-white);
     // border: 5px solid var(--dark-gray);
     display: flex;
     flex-direction: column;
