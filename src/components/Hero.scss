@@ -1,0 +1,14 @@
+:root {
+    --dark-gray: rgb(30, 30, 30);
+    --near-white: rgb(248,248,248);
+    --accent: rgb(80, 154, 189);
+}
+
+.Hero {
+    // height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

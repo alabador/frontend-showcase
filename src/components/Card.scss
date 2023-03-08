@@ -7,7 +7,9 @@
 .Card {
     width: 100%;
     background: rgb(80, 80, 80);
-    border: 5px solid var(--near-white);
+    // border: 5px solid var(--near-white);
+
+    
 
     display: flex;
     flex-direction: column;
@@ -15,6 +17,7 @@
     @media screen and (min-width: 800px) {
         flex-direction: row;
         height: 50vh;
+        // border: none;
     }
 
     .Card-button {
@@ -45,6 +48,10 @@
     padding-bottom: 2.5rem;
     color: var(--near-white);
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     font-size: 0.8rem;
 
     @media screen and (min-width: 600px) {
@@ -67,7 +74,7 @@
 .Card-flip {
     width: 100%;
     background: var(--near-white);
-    border: 5px solid var(--dark-gray);
+    // border: 5px solid var(--dark-gray);
 
 
     display: flex;
@@ -76,6 +83,7 @@
     @media screen and (min-width: 800px) {
         flex-direction: row-reverse;
         height: 50vh;
+        // border: none;
     }
 
     .Card-button {
