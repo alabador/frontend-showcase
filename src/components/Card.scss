@@ -3,13 +3,17 @@
     --near-white: rgb(248,248,248);
     --off-white: rgb(215, 221, 223);
     --accent: rgb(80, 154, 189);
+    --card-bg: rgb(80,80,80);
 }
 
 .Card {
     width: 100%;
-    background: rgb(80, 80, 80);
+    background: var(--card-bg);
     display: flex;
     flex-direction: column;
+    box-shadow: 4px 4px 8px hsl(0deg 0% 0% / 0.38);
+    border-radius: 16px;
+    
     
     @media screen and (min-width: 800px) {
         flex-direction: row;
@@ -17,26 +21,29 @@
         // border: none;
     }
 
-    .Card-button {
-        padding: 1rem;
-        border: 2px solid var(--near-white);
-        text-decoration: none;
-        color: var(--near-white);
-    }
+}
 
-    .Card-button:hover {
-        border: 2px solid var(--accent);
-        color: var(--accent)
-    }
+.Card-button {
+    padding: 1rem;
+    border: 2px solid var(--near-white);
+    text-decoration: none;
+    color: var(--near-white);
+}
+
+.Card-button:hover {
+    border: 2px solid var(--accent);
+    color: var(--accent)
 }
 
    
 .Card-image {
     object-fit: cover;
     width: 100%;
+    border-radius: 16px 16px 0 0;
     
     @media screen and (min-width: 800px) {
         width: 60%;
+        border-radius: 16px 0 0 16px
     }
 }
 
@@ -74,10 +81,13 @@
 
 .Card-flip {
     width: 100%;
-    background: var(--off-white);
+    background: var(--card-bg);
     // border: 5px solid var(--dark-gray);
     display: flex;
     flex-direction: column;
+    box-shadow: 4px 4px 8px hsl(0deg 0% 0% / 0.38);
+    border-radius: 16px;
+
     
     @media screen and (min-width: 800px) {
         flex-direction: row-reverse;
@@ -85,20 +95,12 @@
         // border: none;
     }
 
-    .Card-button {
-        padding: 1rem;
-        border: 2px solid var(--dark-gray);
-        text-decoration: none;
-        color: var(--dark-gray);
-    }
-
-    .Card-button:hover {
-        border: 2px solid var(--accent);
-        color: var(--accent)
-    }
-
-    .Card-info {
-        color: var(--dark-gray);
+    .Card-image {
+        border-radius: 16px 16px 0 0;
+        
+        @media screen and (min-width: 800px) {
+            border-radius: 0 16px 16px 0;
+        }
     }
 }
    
