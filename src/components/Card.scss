@@ -8,7 +8,7 @@
 
 .Card {
     width: 100%;
-    background: white;
+    background: var(--card-bg);
     display: flex;
     flex-direction: column;
     box-shadow: 4px 4px 8px hsl(0deg 0% 0% / 0.38);
@@ -18,9 +18,9 @@
 
 .Card-button {
     padding: 1rem;
-    border: 2px solid var(--dark-gray);
+    border: 2px solid var(--near-white);
     text-decoration: none;
-    color: var(--dark-gray);
+    color: var(--near-white);
 }
 
 .Card-button:hover {
@@ -35,13 +35,13 @@
     border-radius: 8px 8px 0 0;
     flex: 1;
     padding: 1rem;
-    background-color: white;
+    background-color: var(--card-bg);
 }
 
 .Card-info {
     padding: 1.5rem;
     padding-bottom: 2.5rem;
-    color: var(--dark-gray);
+    color: var(--near-white);
 
     display: flex;
     flex-direction: column;
