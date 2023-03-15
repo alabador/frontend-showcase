@@ -1,8 +1,8 @@
 import './Card.scss'
 
-const Card = ({source, flip, project, repo, name, stack}) => {
+const Card = ({source, project, repo, name, stack}) => {
     return (
-        <div className={flip}>
+        <div className="Card">
             <img src={source} alt='random pic' className='Card-image'></img>
             <div className='Card-info'>
                 <h1>{name}</h1>
