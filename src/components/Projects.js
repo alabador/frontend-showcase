@@ -32,6 +32,13 @@ const Projects = () => {
                 repo = {'https://github.com/alabador/frontend-ui/tree/main/services-section'}
                 stack = {['HTML', 'CSS']}
             />
+            <Card 
+                name = {'Webinar Signup'}
+                source={'./images/webinar-signup.png'} 
+                project = {'https://alabador.github.io/frontend-ui/webinar-signup'}
+                repo = {'https://github.com/alabador/frontend-ui/tree/main/webinar-signup'}
+                stack = {['HTML', 'CSS']}
+            />
         </div>
     )
 }
