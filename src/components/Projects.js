@@ -5,6 +5,13 @@ const Projects = () => {
     return(
         <div className='Projects'>
             <Card 
+                name = {'Activity Feed'}
+                source={'./images/Activity-feed.gif'} 
+                project = {'https://alabador.github.io/frontend-ui/activity-feed/'}
+                repo = {'https://github.com/alabador/frontend-ui/tree/main/activity-feed'} 
+                stack = {['HTML', 'CSS', 'JavaScript']}
+            />
+            <Card 
                 name = {'Advice Generator App'}
                 source={'./images/advice-generator.gif'} 
                 project = {'https://alabador.github.io/frontend-ui/advice-generator-app/'}
