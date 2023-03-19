@@ -16,8 +16,14 @@
     gap: 48px;
     padding: 0 5%;
 
+    @media screen and (min-width:600px){
+        padding: 0 15vw;
+    }
     @media screen and (min-width:800px){
         grid-template-columns: 1fr 1fr;
-        padding: 0 10vw;
+        padding: 0 5vw;
+    }
+    @media screen and (min-width:1200px){
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
